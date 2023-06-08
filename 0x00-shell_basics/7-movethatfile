@@ -1,2 +1,2 @@
-#1/bin/bash
+#!/bin/bash
 mv tmp/betty tmp/my_frst_directory
