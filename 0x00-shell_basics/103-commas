@@ -1,0 +1,3 @@
+#!/bin/bash
+ls -la awk '{print substr($0,1,1)~[[:alnum:]]/?$0",":$0"/"}' sed 's/,$/\//' tr -d'\n';echo
+
